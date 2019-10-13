@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Saira+Condensed&display=swap");
+
+.button {
+  padding: 3px;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Saira Semi Condensed", sans-serif;
+  filter: drop-shadow(2px 4px 6px #5a56fd);
+  background-color: #5a56fd;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.login-panel {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 50px 50px;
+}
+
+.user-name {
+  margin: 0;
+  cursor: pointer;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+.logout-button {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 80px 15px;
+
+  width: 100px;
+  margin: 85px;
+  border-radius: 8px;
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Saira Semi Condensed", sans-serif;
+  filter: drop-shadow(2px 4px 6px #5a56fd);
+  background-color: #5a56fd;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.login-button {
+  padding: 2px;
+  /* width: 38%; */
+  width: 100px;
+  border-radius: 8px;
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Saira Semi Condensed", sans-serif;
+  filter: drop-shadow(2px 4px 6px #5a56fd);
+  background-color: #5a56fd;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
