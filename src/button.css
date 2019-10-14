@@ -31,11 +31,13 @@
 
 .logout-button {
   display: flex;
-  justify-content: flex-end;
-  padding: 0 80px 15px;
-
+  justify-content: center;
+  padding: 5px;
   width: 100px;
-  margin: 85px;
+  margin-top: -125px;
+  margin-right: 60px;
+
+  margin-inline-start: auto;
   border-radius: 8px;
   font-size: 22px;
   border: none;
@@ -44,14 +46,13 @@
   font-family: "Saira Semi Condensed", sans-serif;
   filter: drop-shadow(2px 4px 6px #5a56fd);
   background-color: #5a56fd;
-
   -webkit-appearance: none;
   -moz-appearance: none;
 }
 
 .login-button {
   padding: 2px;
-  /* width: 38%; */
+
   width: 100px;
   border-radius: 8px;
   font-size: 22px;

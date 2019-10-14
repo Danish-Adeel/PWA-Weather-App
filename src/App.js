@@ -178,9 +178,16 @@ class App extends Component {
             onSelect={this.onSelectCity}
           />
         )}
-        <button onClick={this.signOut} className="logout-button">
-          SignOut
-        </button>
+
+        {user ? (
+          <button onClick={this.signOut} className="logout-button">
+            SignOut
+          </button>
+        ) : (
+          <div>
+            <span></span>
+          </div>
+        )}
       </>
     );
   }
