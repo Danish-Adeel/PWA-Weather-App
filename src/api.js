@@ -8,13 +8,13 @@ export const getWeatherForLocation = city => {
 };
 
 export const getCurrentLocation = async () => {
-  //const access_key = "80ba8b4ead04f5781e42ef2d89c4d407";
+  
   const res = await fetch("https://json.geoiplookup.io/");
   return await res.json();
 };
 
 export const getWeatherByCityName = async cityName => {
-  const api_key = "fa80d21367f75d29fbfefacaebc2b5d8";
+
   const res = await fetch(
     `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${api_key}`
   );
